@@ -1,9 +1,10 @@
 import React from 'react';
-import Images from "../components/images";
+// import Images from "../../public/images";
 import "./css/style.css";
 import "./css/bootstrap.css";
 import "./css/flexslider.css";
 import "./css/owl.theme.css";
+// import {bg , about} from "../../public/images"
 
 
 
@@ -20,8 +21,8 @@ const About = () => {
 						eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 				</div>
 				<div className="col-lg-7 agileits_works-grid1 p-0 text-right mt-lg-0 mt-5">
-					<img src={Images.bg} alt="" className="img-fluid first-img" />
-					<img src={Images.about} alt="" className="img-fluid img-posi-2" />
+					<img src="./images/bg.png "alt="" className="img-fluid first-img" />
+					<img src="./images/about.jpg" alt="" className="img-fluid img-posi-2" />
 				</div>
 			</div>
 		</div>

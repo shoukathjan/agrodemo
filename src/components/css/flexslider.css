@@ -112,7 +112,7 @@ html[xmlns] .slides {
 	border: 1px solid #af8c22;
 	box-shadow: 3px 3px 2px -1px rgba(0, 0, 0, 0.35);
 	display: block;
-	background: #f1cf69 url(../images/right.png) no-repeat 7px 11px;
+	background: #f1cf69 url(../../../public/images/right.png) no-repeat 7px 11px;
 	position: absolute;
 	bottom: 8%;
 	z-index: 10;
@@ -124,7 +124,7 @@ html[xmlns] .slides {
 }
 
 .flex-direction-nav .flex-next {
-	background: #f1cf69 url(../images/left.png) no-repeat 4px 11px;
+	background: #f1cf69 url(../../../public/images/left.png) no-repeat 4px 11px;
 	right: 44%;
 	border-radius: 0 20px 0 0;
 }

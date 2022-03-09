@@ -108,7 +108,7 @@ a:hover {
     height: 38px;
     border: none;
     text-indent: 100%;
-    background: url(../images/move-top.png) no-repeat 0px 0px;
+    background: url(../../../public/images/move-top.png) no-repeat 0px 0px;
 }
 
 #toTopHover {
@@ -211,7 +211,7 @@ a.nav-link:hover, a.nav-link.active, a.nav-link.dropdown-toggle.active {
 }
 
 .banner-slider1 {
-    background: url(../images/1.jpg) no-repeat center;
+    background: url(../../../public/images/1.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -220,7 +220,7 @@ a.nav-link:hover, a.nav-link.active, a.nav-link.dropdown-toggle.active {
 }
 
 .banner-slider2 {
-    background: url(../images/2.jpg) no-repeat center;
+    background: url(../../../public/images/2.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -229,7 +229,7 @@ a.nav-link:hover, a.nav-link.active, a.nav-link.dropdown-toggle.active {
 }
 
 .banner-slider3 {
-    background: url(../images/3.jpg) no-repeat center;
+    background: url(../../../public/images/3.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -380,7 +380,7 @@ img.img-fluid.img-posi-2 {
 /* blogs */
 
 .blogs {
-    background: url(../images/bg2.png)no-repeat 0px 0px;
+    background: url(../../../public/images/bg2.png)no-repeat 0px 0px;
     background-attachment: fixed;
     background-size: cover;
     -webkit-background-size: cover;
@@ -453,7 +453,7 @@ a.button-w3ls {
 /* testimonials */
 
 .testi-grid-bg {
-    background: url(../images/te5.jpg) no-repeat center;
+    background: url(../../../public/images/te5.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -462,7 +462,7 @@ a.button-w3ls {
 }
 
 .testi-grid-bg1 {
-    background: url(../images/te1.jpg) no-repeat center;
+    background: url(../../../public/images/te1.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -471,7 +471,7 @@ a.button-w3ls {
 }
 
 .testi-grid-bg2 {
-    background: url(../images/te2.jpg) no-repeat center;
+    background: url(../../../public/images/te2.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -480,7 +480,7 @@ a.button-w3ls {
 }
 
 .testi-grid-bg3 {
-    background: url(../images/te3.jpg) no-repeat center;
+    background: url(../../../public/images/te3.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -489,7 +489,7 @@ a.button-w3ls {
 }
 
 .testi-grid-bg4 {
-    background: url(../images/te4.jpg) no-repeat center;
+    background: url(../../../public/images/te4.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -726,7 +726,7 @@ a.button-w3ls {
 /* middle section */
 
 section.middle-w3ls {
-    background: url(../images/bg3.jpg) no-repeat center;
+    background: url(../../../public/images/bg3.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -802,7 +802,7 @@ section.middle-w3ls img {
 /* Inner Pages */
 
 .banner2-w3ls {
-    background: url(../images/2.jpg) no-repeat center;
+    background: url(../../../public/images/2.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -827,7 +827,7 @@ section.middle-w3ls img {
 /* about page */
 
 .abt-img {
-    background: url(../images/1.jpg) no-repeat top;
+    background: url(../../../public/images/1.jpg) no-repeat top;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -947,7 +947,7 @@ ul.contact_info li i {
 /* 404 error page */
 
 .error_banner {
-    background: url(../images/3.jpg)no-repeat center;
+    background: url(../../../public/images/3.jpg)no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

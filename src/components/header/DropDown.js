@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const DropDown = () => {
     return ( 
@@ -11,9 +12,14 @@ const DropDown = () => {
 							<a className="dropdown-item scroll" href="#news">Our News</a>
 							<a className="dropdown-item scroll" href="#testi">Testimonials</a>
 							<a className="dropdown-item scroll" href="#works">Our Works</a>
-							<a className="dropdown-item" href="single.html">Some More</a>
+							<Link className="dropdown-item" to='/somemore'>
+							Some More 
+    						</Link>
+							
 							<div className="dropdown-divider"></div>
-							<a className="dropdown-item" href="404.html">404 Error Page</a>
+							<Link className="dropdown-item" to='/error404'>
+							404 Error Page 
+    						</Link>
 						</div>
     </div>
 

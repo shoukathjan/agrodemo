@@ -4,7 +4,7 @@ import ContactUs from './ContactUs';
 import DropDown from './DropDown';
 import Home from './Home';
 import Projects from './Projects';
-
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     return (
@@ -13,7 +13,10 @@ const NavBar = () => {
 {/* navigation */}
 		<nav className="navbar navbar-expand-lg navbar-light px-sm-5 px-3 py-0">
 			<h1>
-				<a className="navbar-brand py-2" href="index.html">Agro Crop</a>
+			<Link className="navbar-brand py-2" to='/'>
+			Agro Crop 
+    </Link>
+				
 			</h1>
 			<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
 			    aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +33,10 @@ const NavBar = () => {
 				</ul>
 				<div className="header-contact-w3ls text-center mt-lg-0 mt-4">
 					<a href="contact.html" className="py-sm-4 py-3 px-4">
-						<i className="fas fa-at mr-2"></i>Contact Us</a>
+					<Link className="fas fa-at mr-2" to='/contactus'>
+					Contact Us 
+    </Link>
+						</a>
 				</div>
 			</div>
 		</nav>

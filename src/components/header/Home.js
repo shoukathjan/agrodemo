@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return ( 
     <div className="nav-item">
-        <a className="nav-link" href="index.html">Home
-            <span className="sr-only">(current)</span>
-        </a>
+       <Link className="nav-link" to='/'>
+         Home   
+    </Link>
     </div>
     );
 }
